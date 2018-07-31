@@ -1,0 +1,277 @@
+html {
+  background: url("img/back.jpg");
+}
+#esqueleto{
+    display: flex;
+    margin: auto;
+    width: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+    color: black;
+}
+
+h2 {
+    font-size: 1.7em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: left;
+    font-weight: 600;
+}
+h3 {
+    font-size: 15.1px;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+p {
+    margin: 0 0 1em 0;
+}
+
+img {
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+    background: #333;
+    color: white;
+    height: 60px;
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}   
+    #main-header a {
+        color: black;
+    }
+    
+    
+/*
+ * Logo
+ */
+#logo-header {
+    float: left;
+    padding: 10px 0 0 20px;
+    text-decoration: none;
+    border-radius: 0px 40px 0px 40px;
+    background-image: url(img/bandera.png);
+    transition: 1s;
+}
+  
+    
+    #logo-header .site-name {
+        display: block;
+        font-size: 2em;
+    }
+    
+    #logo-header .site-desc {
+        display: block;
+        font-weight: 300;
+        font-size: 1em;
+        
+    }
+#logo-header:hover {
+        color: aliceblue;
+        font-size: 1.5em;
+        display:inline-block;
+        background-image: url(img/mar.jpg);
+    }
+
+#musica{
+    float: right;
+    padding: 15px 10px 10px 0px;
+}
+
+/************ 
+//------------------------------
+// LISTA APARTADOS
+//------------------------------
+************/
+
+#apartados{
+    border-radius: 40px 40px 40px 40px;    
+    flex: 1;
+    width: 180px;
+    height: auto;
+    padding: 0;
+    margin: 50px;
+    color: #666;
+  
+}    
+    #apartados ul {
+        border-radius: 40px 40px 40px 40px;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        padding: 20px;
+        background-color: #333;
+        
+        
+    }
+    
+        #apartados li {
+            display: inline-block;
+            line-height: 60px;
+            width: 140px;
+            text-align: center;
+        }
+            
+           #apartados a {
+                border-radius: 40px 40px 40px 40px;
+                color: aliceblue;
+                display: list-item;
+                padding: 0px 2px;
+                text-decoration: none;
+               line-height: 30px;
+                transition: 0.5s;
+            }
+                #apartados a:hover {
+                    background: #3DBA6B;
+                    color: black;
+                }
+/************ 
+//------------------------------
+// LISTA ISLAS
+//------------------------------
+************/
+#listaislas{
+    border-radius: 40px 40px 40px 40px;
+    flex: 1;
+    width: 180px;
+    height: auto;
+    padding: 0px;
+    margin: 50px;
+    color: #666;
+    
+}    
+    #listaislas ul {
+        border-radius: 40px 40px 40px 40px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding: 20px;
+        background-color: #333;
+        
+    }
+    
+        #listaislas ul li {
+            display: inline-block;
+            line-height: 60px;
+            width: 150px;
+            text-align: center;
+            
+        }
+            
+            #listaislas a {
+                border-radius: 40px 40px 40px 40px;
+                color: aliceblue;
+                display: list-item;
+                padding: 0px 2px;
+                text-decoration: none;
+                transition: 0.5s;
+            }
+                #listaislas a:hover {
+                    background: #3DBA6B;
+                    color: black;
+                }
+
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+#main-content {
+    flex: 4;
+    border-radius: 40px 40px 40px 40px;
+    border: 6px solid #f5f0f5;
+    background-color:floralwhite;
+}
+
+    #main-content header,
+    #main-content .content {
+        padding: 20px;
+    }
+#imagenprincipal{
+   
+    border-radius: 40px 40px 40px 40px;
+    
+}
+#caja1{
+    border: 3px solid #333;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 20px;
+    align-content: center;
+    
+}    
+#imagenizquierda {
+    
+    float: left;
+    width: 40%;    
+    border-radius: 40px 40px 40px 40px;
+    margin: 10px;
+   
+    
+}
+#imagenderecha {
+    float: right;
+    width: 40%;
+    
+    border-radius: 40px 40px 40px 40px;
+    margin: 10px;
+}
+#contenido{
+    margin: 10px;
+    flex:1;
+}
+
+
+
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+    #main-footer p {
+        margin: 0;
+    }
+    

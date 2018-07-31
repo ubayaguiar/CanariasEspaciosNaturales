@@ -1,0 +1,179 @@
+html {
+  background: url("img/back.jpg");
+}
+#esqueleto{
+    display: flex;
+    margin: auto;
+    width: auto
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5em;
+    
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 2.3em;
+  line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.7em;
+  line-height: 1.3em;
+    margin: 15px 0;
+    text-align: left;
+    font-weight: 600;
+}
+p {
+    margin: 0 0 1.5em 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+    background: #333;
+    color: white;
+    height: 60px;
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}   
+    #main-header a {
+        color: black;
+    }
+    
+    
+/*
+ * Logo
+ */
+#logo-header {
+    float: left;
+    padding: 10px 0 0 20px;
+    text-decoration: none;
+    border-radius: 0px 40px 0px 40px;
+    background-image: url(img/bandera.png);
+    transition: 1s;
+}
+  
+    
+    #logo-header .site-name {
+        display: block;
+        font-size: 2em;
+    }
+    
+    #logo-header .site-desc {
+        display: block;
+        font-weight: 300;
+        font-size: 1em;
+        
+    }
+#logo-header:hover {
+        color: aliceblue;
+        font-size: 1.5em;
+        display:inline-block;
+        background-image: url(img/mar.jpg);
+    }
+
+#musica {
+    float: right;
+    padding: 15px 10px 10px 0px;
+}
+
+
+#derecha{
+    border-radius: 40px 40px 40px 40px;    
+    flex: 1;
+    width: 150px;
+    height: auto;
+    padding: 0;
+    margin: 50px;
+}
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+#main-content {
+
+    border-radius: 40px 40px 40px 40px;
+    border: 6px solid #f5f0f5;
+    background-color:floralwhite;
+}
+
+    #main-content header {
+        padding: 40px;
+    }
+    
+#cajavideo{
+    border-radius: 40px 40px 40px 40px;
+     
+}
+/************ 
+//------------------------------
+// Link Formulario
+//------------------------------
+************/
+#izquierda{
+    border-radius: 40px 40px 40px 40px;    
+    flex: 1;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 50px;
+    
+}
+        #izquierda a {
+                background-color: #333;
+                border-radius: 40px 40px 40px 40px;
+                color: aliceblue;
+                display: list-item;
+                padding: 20px;
+                text-decoration: none;
+                list-style: none;
+                line-height: 20px;
+                transition: 0.5s;
+            
+            }
+                #izquierda a:hover {
+                    background: #3DBA6B;
+                    color: black;
+                }
+
+
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+    #main-footer p {
+        margin: 0;
+    }
+    
